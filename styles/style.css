@@ -37,7 +37,7 @@
   outline: none;
 }
 
-/* HEADER STYLES */
+/* Header styles */
 
 .header {
   height: 100vh;
@@ -206,7 +206,7 @@
   line-height: var(--title-line-height);
 }
 
-@media (width >= 768px){
+@media (width >= 768px) {
   .header {
     padding: 20px;
   }
