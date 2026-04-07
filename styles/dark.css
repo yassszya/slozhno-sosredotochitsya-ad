@@ -4,7 +4,7 @@
   переключая тему
 */
 
-.page.theme_dark {
+:root.theme-dark {
   --background-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
   --accent-color-opacity: #ff007066;
@@ -15,4 +15,8 @@
   --header2-color: var(--accent-color);
   --header3-color: var(--background-color);
   --is-light: visible;
+}
+
+.theme-dark .page {
+  /* Стили для страницы в тёмной теме */
 }
